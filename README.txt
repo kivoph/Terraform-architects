@@ -1,4 +1,4 @@
-Terraform Architects - Design and Construction Management (Version 5.5)
+Terraform Architects - Design and Construction Management (Version 1)
 
 Buksan ang index.html sa browser.
 Default admin login: Admin / admin123 (sign in as Admin). Staff are registered by the admin in Administration > Users with a name and password, then sign in as Staff.
