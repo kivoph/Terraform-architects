@@ -1,0 +1,19 @@
+Terraform Architects - Design and Construction Management (Version 1)
+
+Buksan ang index.html sa browser.
+Sign in as Admin with the Admin account set up in Supabase. Staff and foremen are registered by the admin in Administration > Users with a name and password; they choose their own password at first sign in.
+
+Ang logo ay nakalagay na rin sa loob ng index.html.
+Ang assets/terraform-logo.png ay kopya lang para magamit sa ibang lugar.
+Ang datos ay nasa Supabase na (online, shared ng lahat ng users).
+
+Ang assets/icon-*.png ay ang app icon (192/512 para sa Home Screen, 180 para sa iPhone). Ang favicon at apple-touch-icon ay nakalagay na rin sa loob ng index.html.
+
+Version 5.3: may babala na kapag hindi na-save ang datos (puno o bawal ang storage ng browser). May manifest.json at sw.js na rin para sa Add to Home Screen at offline use. Gumagana lang ang offline kapag binuksan ang app mula sa web address (https), hindi kapag direktang file lang. Kapag naglabas ng bagong bersyon, palitan ang CACHE sa sw.js.
+
+Version 5.4: pinalitan ang pangalan ng system, ngayon ay Design and Construction Management.
+
+Version 5.5: ang screen ay hindi na tumatalon sa taas o nawawalan ng cursor kapag may binago sa isang field. May button na sa header (araw/buwan) para palitan ang light at dark. Nilinis din ang CSS at gumagana na ang "reduce motion" setting ng device. Laging light ang simula; dark lang kapag in-on ng user ang switch.
+
+
+Version 6.0: konektado na sa Supabase. Online login (Supabase Auth), shared na datos para sa lahat ng users, audit log sa database, at ang mga file (contracts, site uploads) ay nasa Supabase Storage. Sa Administration > Backup, may "Move old data online" para ilipat ang lumang datos ng browser. Palitan ang CACHE sa sw.js kapag may bagong bersyon.
